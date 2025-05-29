@@ -1,12 +1,54 @@
 # Actividad Grupal 2: Lanzamiento y Requisitos Ágiles - ClientConnect
 
+## Introducción
+
+El presente documento desarrolla la actividad de lanzamiento y requisitos ágiles para el proyecto ClientConnect de TechSoluciones, una empresa de servicios de TI que busca implementar una solución CRM basada en la nube para mejorar la gestión de clientes y automatizar procesos empresariales clave.
+
+TechSoluciones, fundada hace diez años por Alejandro Torres, ha identificado una oportunidad significativa en el sector de servicios profesionales donde existe una creciente necesidad de optimizar la gestión de relaciones con clientes y mejorar la eficiencia operativa. Bajo el liderazgo de Sofía Herrera (CIO) y con el apoyo de Ricardo Gómez (CISO), la empresa ha iniciado este proyecto de transformación digital que promete revolucionar tanto sus operaciones internas como los servicios que ofrece a sus clientes.
+
+La metodología ágil seleccionada para este proyecto permite una entrega iterativa de valor, adaptabilidad a cambios del mercado y una colaboración estrecha con los usuarios finales. Este enfoque es fundamental para el éxito de ClientConnect, ya que permite validar hipótesis tempranamente y ajustar el rumbo según las necesidades reales de los usuarios.
+
+El desarrollo de esta actividad abarca la definición de la visión del proyecto mediante técnicas de elevator pitch y product box, la identificación y caracterización de personas clave, la creación de historias de usuario priorizadas mediante la técnica MoSCoW, y el establecimiento de definiciones claras de Ready y Done que guiarán el desarrollo del producto.
+
+A través de este ejercicio, establecemos las bases para un proyecto ágil exitoso que no solo cumplirá con los objetivos comerciales de TechSoluciones, sino que también proporcionará valor tangible y medible tanto para la empresa como para sus clientes en el sector de servicios profesionales.
+
+## Tabla de Contenido
+
+1. [Visión del Proyecto](#1-visión-del-proyecto)
+   - 1.1 Elevator Pitch
+   - 1.2 Product Box
+
+2. [Historias de Usuario](#2-historias-de-usuario)
+   - 2.1 Personas Identificadas
+   - 2.2 Historias de Usuario por Persona
+
+3. [Priorización MoSCoW](#3-priorización-moscow)
+   - 3.1 Must Have (Debe tener)
+   - 3.2 Should Have (Debería tener)
+   - 3.3 Could Have (Podría tener)
+   - 3.4 Won't Have (No tendrá en esta versión)
+
+4. [Product Backlog](#4-product-backlog)
+   - 4.1 Organización por Sprints
+   - 4.2 Planificación de Iteraciones
+
+5. [Definiciones de Ready y Done](#5-definiciones-de-ready-y-done)
+   - 5.1 Definición de Ready (Proyecto General)
+   - 5.2 Definición de Done (Proyecto General)
+   - 5.3 Definición de Ready (Primera Iteración)
+   - 5.4 Definición de Done (Primera Iteración)
+
+6. [Conclusión](#6-conclusión)
+
+---
+
 ## 1. Visión del Proyecto
 
-### Elevator Pitch
+### 1.1 Elevator Pitch
 
 "Para empresas del sector de servicios profesionales que luchan con la gestión fragmentada de clientes y procesos ineficientes, ClientConnect es una solución CRM basada en la nube que centraliza la información del cliente, automatiza flujos de trabajo clave y proporciona análisis de datos en tiempo real. A diferencia de las soluciones genéricas del mercado, ClientConnect está específicamente diseñado para las necesidades únicas del sector de servicios profesionales, ofreciendo integraciones especializadas y capacidades de personalización que mejoran la satisfacción del cliente en un 40% y la eficiencia operativa en un 35%."
 
-### Product Box
+### 1.2 Product Box
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -37,7 +79,7 @@
 
 ## 2. Historias de Usuario
 
-### Personas Identificadas
+### 2.1 Personas Identificadas
 
 #### Persona 1: María González - Ejecutiva de Cuenta Senior
 **Perfil**: Profesional con 8 años de experiencia en gestión de cuentas, maneja una cartera de 25 clientes corporativos. Necesita acceso rápido a información actualizada y herramientas para mantener relaciones sólidas con clientes.
@@ -59,7 +101,7 @@
 
 **Necesidades**: Herramientas de análisis, generación de reportes, visualización de datos, integración de fuentes de información.
 
-### Historias de Usuario por Persona
+### 2.2 Historias de Usuario por Persona
 
 #### María González - Ejecutiva de Cuenta
 
@@ -111,28 +153,28 @@
 
 ## 3. Priorización MoSCoW
 
-### Must Have (Debe tener)
+### 3.1 Must Have (Debe tener)
 - **HU-01**: Dashboard consolidado de clientes
 - **HU-02**: Registro e historial de interacciones
 - **HU-06**: Automatización de flujos básicos
 - **HU-11**: Acceso al historial completo del cliente
 - **HU-12**: Gestión de tickets de soporte
 
-### Should Have (Debería tener)
+### 3.2 Should Have (Debería tener)
 - **HU-03**: Alertas automáticas de fechas importantes
 - **HU-07**: Visualización en tiempo real de proyectos
 - **HU-13**: Base de conocimientos integrada
 - **HU-16**: Dashboards personalizados
 - **HU-17**: Reportes automatizados
 
-### Could Have (Podría tener)
+### 3.3 Could Have (Podría tener)
 - **HU-04**: Generación de propuestas personalizadas
 - **HU-08**: Asignación automática de tareas
 - **HU-09**: Reportes de productividad
 - **HU-14**: Encuestas de satisfacción automáticas
 - **HU-18**: Integración de múltiples fuentes de datos
 
-### Won't Have (No tendrá en esta versión)
+### 3.4 Won't Have (No tendrá en esta versión)
 - **HU-05**: Métricas avanzadas de rendimiento de cuentas
 - **HU-10**: Alertas de escalación configurables
 - **HU-15**: Escalación automática de casos complejos
@@ -140,6 +182,8 @@
 - **HU-20**: Exportación en múltiples formatos
 
 ## 4. Product Backlog
+
+### 4.1 Organización por Sprints
 
 ### Sprint 1 - Fundamentos Core
 1. **HU-01** - Dashboard consolidado de clientes (Must Have)
@@ -161,14 +205,16 @@
 11. **HU-04** - Generación de propuestas personalizadas (Could Have)
 12. **HU-08** - Asignación automática de tareas (Could Have)
 
-### Sprints Futuros
+### 4.2 Planificación de Iteraciones
+
+Los sprints futuros incluirán las funcionalidades clasificadas como "Could Have" y posteriormente se evaluará la inclusión de elementos "Won't Have" según la evolución del proyecto y las necesidades del negocio.
 13. **HU-09** - Reportes de productividad (Could Have)
 14. **HU-14** - Encuestas de satisfacción automáticas (Could Have)
 15. **HU-18** - Integración de múltiples fuentes de datos (Could Have)
 
 ## 5. Definiciones de Ready y Done
 
-### Definición de Ready (Proyecto General)
+### 5.1 Definición de Ready (Proyecto General)
 
 Una historia de usuario está lista para ser desarrollada cuando:
 
@@ -181,7 +227,7 @@ Una historia de usuario está lista para ser desarrollada cuando:
 7. **Integración**: Se han definido los puntos de integración con sistemas existentes
 8. **Pruebas**: Están definidos los casos de prueba y criterios de aceptación
 
-### Definición de Done (Proyecto General)
+### 5.2 Definición de Done (Proyecto General)
 
 Una historia de usuario está completada cuando:
 
@@ -196,7 +242,7 @@ Una historia de usuario está completada cuando:
 9. **Despliegue**: La funcionalidad está desplegada en ambiente de staging
 10. **Regresión**: Se han ejecutado pruebas de regresión sin fallos críticos
 
-### Definición de Ready (Primera Iteración)
+### 5.3 Definición de Ready (Primera Iteración)
 
 Para la primera iteración, una historia está lista cuando:
 
@@ -208,7 +254,7 @@ Para la primera iteración, una historia está lista cuando:
 6. **Prototipo**: Existe un prototipo funcional o prueba de concepto
 7. **Stakeholders**: Los stakeholders clave están identificados y disponibles
 
-### Definición de Done (Primera Iteración)
+### 5.4 Definición de Done (Primera Iteración)
 
 Para la primera iteración, una historia está completa cuando:
 
@@ -223,7 +269,7 @@ Para la primera iteración, una historia está completa cuando:
 9. **Logging**: Sistema básico de logging está implementado
 10. **Backup**: Mecanismo básico de respaldo de datos está funcionando
 
-## Conclusión
+## 6. Conclusión
 
 El proyecto ClientConnect representa una oportunidad significativa para transformar la gestión de relaciones con clientes en TechSoluciones. La implementación ágil propuesta, con un enfoque en personas reales y sus necesidades específicas, asegura que el producto final agregue valor tangible desde el primer sprint.
 
