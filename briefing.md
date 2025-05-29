@@ -1,5 +1,3 @@
-# Informe Prácticum I. Observación  
-## Pautas de elaboración  
 
 ### TechSoluciones  
 #### Briefing  
